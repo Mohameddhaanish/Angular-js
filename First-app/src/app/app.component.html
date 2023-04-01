@@ -1,0 +1,70 @@
+ <!-- <hello  test="{{name}}" class="text-center"></hello>   -->
+<!--<app-about></app-about>
+<app-contact></app-contact> -->
+
+
+<!-- <ng-template [show]="display">
+<p>
+    start editing to see some magic happen :)
+</p> 
+</ng-template>
+<h3>Counter {{child?.counter}}</h3>
+<button (click)="inc()">increment</button>
+<button (click)="dec()">decrement</button>
+<my-field #childview></my-field> -->
+
+
+<!-- 
+<input type="text"  #inputUser>
+<button (click)="addUser(inputUser.value)">Add Name</button>
+
+<input type="text"  #inputUserAge>
+<button (click)="addAge(inputUserAge.value)">Add Age</button> 
+
+
+<div>
+    {{'Mohamed' | append:'Dhaanish'}}
+</div>
+
+<div *ngFor="let user of users "> 
+   
+     {{user.name}}<br>{{user.age}}
+</div> 
+ 
+<div>
+    AsynData: {{jsonData | async| json}}
+</div>
+
+
+<h1 *ngIf="isShowing">Hi Mohamed :)</h1>
+<button (click)="check()" appExampleDirective>click me</button> -->
+<!-- <div>
+    <p #highlight>Hello Dhaanish</p>
+</div>
+<div>
+    <strong #highlight>Hello Dhaanish</strong>
+</div> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <img src="../assets/profile-icon-png-916.png" class="imagelogo">
+    <a class="navbar-brand" href="#">User Management</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"routerLink="/User">Users<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/About">About</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" routerLink="/Contact">Contact</a>
+          </li>
+        </ul>
+     
+    </div>
+  </nav>
+  
+
+<router-outlet></router-outlet>
+

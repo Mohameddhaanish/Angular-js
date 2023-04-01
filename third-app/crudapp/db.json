@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "name": "Mohamed Dhaanish",
+      "mobile": 23786487,
+      "email": "md@gmail.com",
+      "fees": 235234
+    },
+    {
+      "id": 4,
+      "name": "simon",
+      "mobile": 9842150017,
+      "email": "sdz@gmail.com",
+      "fees": 250000
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
